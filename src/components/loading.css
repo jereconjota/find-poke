@@ -1,0 +1,19 @@
+.loading {
+    width: 100px;
+    animation: spin 1.3s linear infinite;
+}
+
+.content {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes spin {
+    0% {
+        background: transparent;
+        transform: rotate(-360deg);
+    }
+}

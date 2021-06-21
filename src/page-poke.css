@@ -1,0 +1,10 @@
+.pic-poke{
+    /* border-radius: 50%; */
+    width: 300px;
+}
+
+/* React carga los css a nivel de la app, no a nivel de componente, por lo que se puede usar una 
+clase de cualquier archivo css en cualquier componenete */
+body{
+    color: #333
+}
